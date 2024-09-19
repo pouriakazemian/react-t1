@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+ .container .Header{
+    width: 100%;
+    height: 3rem;
+    background-color: goldenrod;
+    color: whitesmoke;
+    position: relative;
+    box-shadow:2px 2px 2px gray;
+    user-select: none;
+}
+.Header  span{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    user-select: none;
+}
